@@ -18,6 +18,7 @@ ul.main-menu{
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
 
 }
 .container{
@@ -31,3 +32,27 @@ ul.main-menu{
     font-size: 20px;
     font-weight: 600;
 }
+
+@media (min-width: 0px){
+    .header{
+        background-color: pink;
+    }
+}
+@media (min-width: 568px){
+    .header{
+        background-color: rgb(90, 80, 80);
+    }
+    .navbar{
+        display:flex;
+    }
+    .menu-nav{
+        display: none;
+    }
+}
+@media (min-width: 992px){
+    .header{
+        background-color: rgb(123, 255, 7);
+    }
+}
+
+
