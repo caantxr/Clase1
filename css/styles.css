@@ -1,5 +1,4 @@
 * {
-    border: 1px dotted rgb(137, 7, 7);
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
@@ -19,6 +18,8 @@ ul.main-menu{
     margin: 0;
     padding: 0;
     display: flex;
+    gap: .5rem;
+
 
 }
 .container{
@@ -31,6 +32,13 @@ ul.main-menu{
 .logo{
     font-size: 20px;
     font-weight: 600;
+}
+.menu-item a{
+    color:#2d2d2d;
+    text-decoration:none;
+}
+.menu-item a:hover {
+color:aquamarine;
 }
 
 @media (min-width: 0px){
@@ -51,7 +59,7 @@ ul.main-menu{
 }
 @media (min-width: 992px){
     .header{
-        background-color: rgb(123, 255, 7);
+        background-color: rgb(255, 255, 255);
     }
 }
 
