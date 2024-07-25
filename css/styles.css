@@ -19,6 +19,11 @@
 body{
     font-family: "Epilogue",sans-serif;
 }
+p{
+    line-height: 1.4;
+    font-size: 17px;
+}
+
 .navbar{
     display: none;
 }
@@ -76,8 +81,20 @@ color:aquamarine;
         background-color: rgb(255, 255, 255);
     }
 }
+@media (min-width: 768px) {
+    .bio-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        width: 60%;
+        padding: 7rem 0;
+    }
+    
+}
 
 /** Main: Section Bio*/
 .bio{
     background-color: var(--pink-lace)
 }
+
