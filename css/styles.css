@@ -8,6 +8,7 @@
     --piggy-pink: #F6DCE9;
     --paolo-veronese-green: #009379;
     --anti-flash-white: #F3F3F3;
+    --chinese-silver: #CCCCCC;
     /**/
     --color-main-link: var(var(--charleston-green-v1));
 }
@@ -19,7 +20,7 @@
 body{
     font-family: "Epilogue",sans-serif;
 }
-p{
+.biography-detaills{
     line-height: 1.4;
     font-size: 17px;
 }
@@ -34,6 +35,7 @@ ul.main-menu{
     display: flex;
     gap: 1rem;
 
+    
 
 }
 /* afecta a todos */
@@ -58,6 +60,14 @@ ul.main-menu{
 }
 .menu-item a:hover {
 color:aquamarine;
+}
+.linea {
+    border-top: 2px solid var(--chinese-silver);
+    height: 10px;
+    padding: 0;
+    max-width: 1000px;
+    margin: 20px auto 0 auto;
+    
 }
 
 @media (min-width: 0px){
@@ -93,8 +103,43 @@ color:aquamarine;
     
 }
 
+
 /** Main: Section Bio*/
 .bio{
     background-color: var(--pink-lace)
 }
+.description{
+    background-color: var(--white);
+}
+.main-paragraph{
+    padding-top: 3rem;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:2% 16%;
+}
 
+.form-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.field{
+width: 300px;
+height: 30px;
+}
+.text-field{
+    width: 300px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+.button.form-button{
+    width: 150px;
+    height: 30px;
+    
+}
